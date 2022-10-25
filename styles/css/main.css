@@ -1,0 +1,714 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container-header {
+  margin: 0 auto;
+  width: 1200px;
+  height: 120px;
+  background-color: #0a2640;
+  display: flex;
+  align-items: center;
+  padding: 0px 80px;
+  justify-content: space-between;
+}
+header .container-header img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header .container-header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .container-header ul a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+header .container-header ul .header-a {
+  padding: 8px 40px;
+  border-radius: 24px;
+  background-color: white;
+  color: #0a2640;
+}
+
+main section .main-box1 {
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a2640;
+}
+main section .main-box1 .inform {
+  display: flex;
+  justify-content: space-between;
+}
+main section .main-box1 .inform .lider {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-top: 70px;
+}
+main section .main-box1 .inform .lider h1 {
+  width: 407px;
+  height: 118px;
+  text-align: left;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+main section .main-box1 .inform .lider p {
+  width: 497px;
+  height: 56px;
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+main section .main-box1 .inform .lider .button {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 110px;
+  justify-content: left;
+}
+main section .main-box1 .inform .lider .button .button-1 {
+  padding: 16px 56px;
+  border-radius: 56px;
+  background-color: #65e4a3;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0a2640;
+}
+main section .main-box1 .inform .lider .button .button-2 {
+  padding: 16px 56px;
+  background-color: #0a2640;
+  border: 2px solid white;
+  border-radius: 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+main section .main-box1 .inform .box1-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: 25px;
+}
+main section .main-box1 .inform .box1-img div {
+  display: flex;
+  justify-content: right;
+  gap: 38px;
+}
+main section .main-box1 .box1-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section .main-box1 .box1-logo img {
+  max-width: 100%;
+  height: 100%;
+}
+main section .service {
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 100px 240px 100px;
+}
+main section .service h2 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+main section .service h3 {
+  margin: 10px auto;
+  width: 842px;
+  height: 144px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+}
+main section .service .service-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+main section .service .service-1 .service-steps {
+  width: 300;
+  height: 550px;
+}
+main section .service .service-1 .service-steps img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main section .service .service-1 .service-steps h4 {
+  margin-top: 24px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+main section .service .service-1 .service-steps p {
+  margin-top: 12px;
+  width: 300px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+main section .service .service-1 .service-steps a {
+  margin-top: 28px;
+  border-bottom: 2px solid #0a2640;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  width: 158px;
+  height: 36px;
+  justify-content: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #0a2640;
+}
+main section .service .service-man {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+main section .service .service-man .man-img .manimg-1 {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 0px;
+}
+main section .service .service-man .man-img .manimg-2 {
+  position: absolute;
+  width: 251px;
+  top: 192px;
+  left: 170px;
+}
+main section .service .service-man .man-inform {
+  position: relative;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+main section .service .service-man .man-inform h4 {
+  margin-top: 10px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+main section .service .service-man .man-inform div {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 24px;
+}
+main section .service .service-man .man-inform div p {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+main section .service .service-man .man-inform a {
+  margin-top: 50px;
+  width: 210px;
+  padding: 16px 56px;
+  border-radius: 56px;
+  background-color: #0a2640;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+main section .service .service-woman {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  position: relative;
+}
+main section .service .service-woman .woman-inform {
+  margin-top: 80px;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: left;
+}
+main section .service .service-woman .woman-inform h4 {
+  width: 490px;
+  height: 164px;
+  text-align: left;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+main section .service .service-woman .woman-inform div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main section .service .service-woman .woman-inform div p {
+  width: 490px;
+  height: 68px;
+  padding-left: 26px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0a2640;
+}
+main section .service .service-woman .woman-inform div p:hover {
+  background-color: #0a2640;
+  color: white;
+}
+main section .service .service-woman .woman-img .last-1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+main section .service .service-woman .woman-img .last {
+  position: absolute;
+  right: 95px;
+  top: 294px;
+}
+main section .container-komentary {
+  position: relative;
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+  background-color: #0a2640;
+  padding: 86px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+main section .container-komentary h2 {
+  margin-bottom: 65px;
+  text-align: left;
+  width: 716px;
+  height: 139px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+main section .container-komentary .direct {
+  position: absolute;
+  top: 170px;
+  right: 90px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+main section .container-komentary .komentary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main section .container-komentary .komentary .komentary-self {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+main section .container-komentary .komentary .komentary-self h3 {
+  width: 240px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+main section .container-komentary .komentary .komentary-self .div {
+  display: flex;
+  gap: 16px;
+}
+main section .container-komentary .komentary .komentary-self .div h4 {
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #0a2640;
+}
+main section .container-komentary .komentary .komentary-self .div a {
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #0a2640;
+}
+main section .container-blog {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 120px 100px;
+  background-color: #ffffff;
+}
+main section .container-blog .blog-1 {
+  display: flex;
+  background-color: #ffffff;
+  height: 650px;
+  flex-direction: column;
+  gap: 56px;
+}
+main section .container-blog .blog-1 .img {
+  width: 1000px;
+}
+main section .container-blog .blog-1 div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container-blog .blog-1 div p {
+  width: 450px;
+  height: 164px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+main section .container-blog .blog-1 div ul {
+  width: 450px;
+}
+main section .container-blog .blog-1 div ul li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #0a2640;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+main section .container-blog .our-blog {
+  width: 100%;
+  height: 1050px;
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section .container-blog .our-blog h2 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+main section .container-blog .our-blog h3 {
+  text-align: center;
+  margin-top: 12px;
+  width: 842px;
+  height: 144px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+}
+main section .container-blog .our-blog .blog-box {
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+main section .container-blog .our-blog .blog-box .our-box {
+  width: 300px;
+  height: 424px;
+}
+main section .container-blog .our-blog .blog-box .our-box .box-inform {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 12px;
+}
+main section .container-blog .our-blog .blog-box .our-box .box-inform h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0a2640;
+}
+main section .container-blog .our-blog .blog-box .our-box .box-inform h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+main section .container-blog .our-blog .blog-box .our-box p {
+  margin-top: 12px;
+  width: 300px;
+  height: 99px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+main section .container-blog .our-blog .blog-box .our-box .box-footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+}
+main section .container-blog .our-blog .blog-box .our-box .box-footer a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+main section .container-blog .our-blog .btn {
+  display: block;
+  margin-top: 80px;
+  padding: 16px 56px;
+  border-radius: 56px;
+  border: 2px solid #0a2640;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0a2640;
+}
+main section .container-blog .finish-blog {
+  width: 1000px;
+  height: 390px;
+  padding: 72px 0px;
+  background-color: #0a2640;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section .container-blog .finish-blog h2 {
+  width: 716px;
+  height: 139px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+main section .container-blog .finish-blog div {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+main section .container-blog .finish-blog div .finish-btn {
+  display: block;
+  padding: 12px 158px 12px 32px;
+  border-radius: 250px;
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+main section .container-blog .finish-blog div .finish-btn1 {
+  background: #65e4a3;
+  border: 2px solid #65e4a3;
+  border-radius: 56px;
+  padding: 16px 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0a2640;
+}
+
+footer .container-footer {
+  margin: 0 auto;
+  background-color: white;
+  width: 1200px;
+  height: 400px;
+  padding: 0px 130px 100px 100px;
+  display: flex;
+  align-items: flex-start;
+}
+footer .container-footer .footer-box {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+footer .container-footer .footer-box img {
+  width: 156px;
+}
+footer .container-footer .footer-box p {
+  width: 300px;
+  height: 84px;
+  margin-top: 40px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+footer .container-footer .footer-box h2 {
+  margin-top: 60px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+footer .container-footer .box {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+footer .container-footer .box h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+footer .container-footer .box ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+footer .container-footer .box ul a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+footer .container-footer .box ul a span {
+  background: #65E4A3;
+  padding: 7px 14px;
+  border-radius: 120px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  color: #0a2640;
+}/*# sourceMappingURL=main.css.map */
