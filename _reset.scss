@@ -1,6 +1,13 @@
-a{
-    text-decoration: none;
+
+$asosiy-rang: #0a2640;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-ul{
-    list-style-type: none;
+body {
+  background-color: #1e1e1e;
+}
+a {
+  text-decoration: none;
 }
